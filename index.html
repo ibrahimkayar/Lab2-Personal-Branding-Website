@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İbrahim Kayar | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f8ff;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f62fe, #003b8e);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0, 60, 150, 0.12);
+      transition: 0.3s ease;
+      border-top: 5px solid #0f62fe;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 35px rgba(0, 60, 150, 0.18);
+    }
+
+    .icon {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      color: #0f62fe;
+    }
+
+    .card h2 {
+      color: #003b8e;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      font-size: 0.98rem;
+      color: #374151;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #003b8e;
+      color: white;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 900px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>İbrahim Kayar</h1>
+    <p>Statistics Student | Data Science & AI Enthusiast</p>
+  </header>
+
+  <main class="container">
+    <section class="cards">
+
+      <div class="card">
+        <div class="icon">👨‍💻</div>
+        <h2>Who I Am</h2>
+        <p>
+          My name is İbrahim Kayar, and I am a third-year Statistics student at
+          Yıldız Technical University. I am passionate about working with data
+          and discovering meaningful insights that can support better
+          decision-making. Throughout my studies, I have developed a strong
+          interest in data science, artificial intelligence, machine learning,
+          and business analytics.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📊</div>
+        <h2>My Skills</h2>
+        <p>
+          I have gained experience in technical and analytical areas through
+          academic coursework and personal projects. My skills include Python,
+          R, SQL, data analysis, regression analysis, machine learning
+          fundamentals, and data visualization. I have also worked on hazardous
+          asteroid classification using NASA API data and operational data
+          analysis projects.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚀</div>
+        <h2>My Future Goal</h2>
+        <p>
+          My long-term goal is to become a data scientist who uses artificial
+          intelligence, machine learning, and statistical methods to solve real
+          business problems. I aim to develop innovative, data-driven solutions
+          that create value for organizations and improve decision-making
+          processes.
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 İbrahim Kayar | Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
