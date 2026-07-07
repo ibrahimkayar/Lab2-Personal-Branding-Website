@@ -21,7 +21,6 @@ The objective of this project is to create a personal branding website using Gen
 
 - HTML5
 - CSS3
-- ChatGPT
 - Gemini AI
 
 ---
@@ -38,46 +37,63 @@ Lab2-Personal-Branding-Website
 ```
 
 ---
+## AI Prompts Used
 
-## AI Prompts
+### 1. Text Generation Prompt
 
-### Text Generation
+```text
+I am İbrahim Kayar, a 3rd-year Statistics student at Yıldız Technical University.
+I am interested in data science, artificial intelligence, machine learning, and business analytics.
+I have worked on projects such as hazardous asteroid classification using NASA API data and operational data analysis.
+My skills include Python, R, SQL, data analysis, regression, machine learning basics, visualization, and problem solving.
+My future goal is to become a data scientist who uses AI and statistics to solve real business problems.
 
-Organize the following information into three sections:
-- Who I Am
-- My Skills
-- My Future Goal
+Organize this information into three sections:
+1. Who I Am
+2. My Skills
+3. My Future Goal
 
-Write it in a professional and student-friendly tone.
+Write it in a clear, professional, and student-friendly tone.
+```
 
----
+### 2. Image Generation Prompt — Who I Am
 
-### Image Generation
+```text
+Create a professional illustration of a university statistics student working with data and artificial intelligence technologies. The student is analyzing datasets on multiple screens showing charts, graphs, and machine learning models. The atmosphere should be modern, innovative, and technology-focused. Use a professional and student-friendly style.
+```
 
-Generate professional illustrations representing:
+### 3. Image Generation Prompt — My Skills
 
-- Who I Am
-- My Skills
-- My Future Goal
+```text
+Create an illustration representing data science skills including Python, R, SQL, machine learning, regression analysis, data visualization, and problem solving. Include charts, code snippets, databases, and AI-related symbols in a modern and clean design.
+```
 
----
+### 4. Image Generation Prompt — My Future Goal
 
-### Website Generation
+```text
+Create an inspiring illustration of a future data scientist using artificial intelligence and statistics to solve business problems. Show dashboards, predictive models, AI systems, and business decision-making elements in a futuristic and professional environment.
+```
 
+### 5. Website Generation Prompt
+
+```text
 Create a modern and responsive personal portfolio website using HTML and CSS.
 
-Requirements:
+The website should include three sections:
+1. Who I Am
+2. My Skills
+3. My Future Goal
 
-- Responsive
-- Blue & White Theme
-- Cards Layout
-- Professional Design
-- Data Science Portfolio
+Use the following content:
 
----
+[Personal profile content generated above]
 
-## Result
-
-The final website presents my personal profile, technical skills, career goals, and AI-generated illustrations in a modern responsive portfolio.
+Design requirements:
+- Professional and modern appearance
+- Blue and white color palette
+- Responsive design
+- Cards and icons for each section
+- Suitable for a university student interested in Data Science and AI
+```
 
 Developed using Generative AI technologies.
